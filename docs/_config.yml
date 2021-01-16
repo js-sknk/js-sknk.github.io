@@ -3,9 +3,5 @@ theme: jekyll-architect-theme
 # Site Settings
 locale: "ko-KR"
 title: Portfolio
-url: "https://js-sknk.github.io"
-baseurl: ""
-title_separator: "-"
 name: "JS"
 description: "A Portfolio website."
-repository: "js-sknk/js-sknk.github.io"
