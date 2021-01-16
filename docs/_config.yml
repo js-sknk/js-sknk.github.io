@@ -1,4 +1,4 @@
-remote_theme: "pietromenna/jekyll-architect-theme"
+theme: jekyll-architect-theme
 
 # Site Settings
 locale: "ko-KR"
