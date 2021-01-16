@@ -1,0 +1,18 @@
+uuid: 1986ea3c-95a6-4fa8-9ab8-91fab0854b4b
+langcode: ko
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+id: block_content.basic.changed
+field_name: changed
+entity_type: block_content
+bundle: basic
+label: 변경됨
+description: '사용자 정의 블록이 마지막으로 편집된 시간입니다.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

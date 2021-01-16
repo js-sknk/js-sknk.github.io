@@ -1,0 +1,18 @@
+uuid: d9544af4-17ec-4842-8348-f3c0aad88ffd
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.title
+field_name: title
+entity_type: node
+bundle: page
+label: 제목
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

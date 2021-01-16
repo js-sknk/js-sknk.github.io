@@ -1,0 +1,18 @@
+uuid: b381f317-9424-4591-89e9-b4c4a9371732
+langcode: ko
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.mail
+field_name: mail
+entity_type: comment
+bundle: comment
+label: 이메일
+description: '댓글 작성자의 이메일 주소입니다.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

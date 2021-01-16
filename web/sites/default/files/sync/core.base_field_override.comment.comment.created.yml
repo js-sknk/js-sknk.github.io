@@ -1,0 +1,18 @@
+uuid: b407e3f5-2e8f-417e-9f69-d88c4bfa55e2
+langcode: ko
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.created
+field_name: created
+entity_type: comment
+bundle: comment
+label: '생성 시각'
+description: '댓글 작성 시간입니다.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

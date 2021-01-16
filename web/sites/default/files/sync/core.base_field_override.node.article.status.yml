@@ -1,0 +1,22 @@
+uuid: 6f90c7bd-2958-4378-8c6a-0204a32ca24e
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.status
+field_name: status
+entity_type: node
+bundle: article
+label: 공개
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 켜기
+  off_label: 끄기
+field_type: boolean

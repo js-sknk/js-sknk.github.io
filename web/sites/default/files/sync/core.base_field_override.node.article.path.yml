@@ -1,0 +1,20 @@
+uuid: 6475ed76-8e33-438f-8a5e-c569f1faafef
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - path
+id: node.article.path
+field_name: path
+entity_type: node
+bundle: article
+label: 'URL 별명'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

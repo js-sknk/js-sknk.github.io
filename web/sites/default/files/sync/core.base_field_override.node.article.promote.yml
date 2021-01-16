@@ -1,0 +1,22 @@
+uuid: c225aceb-7bef-4ae5-8197-fcdb347e119d
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.promote
+field_name: promote
+entity_type: node
+bundle: article
+label: '첫 페이지에 홍보하기'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 켜기
+  off_label: 끄기
+field_type: boolean

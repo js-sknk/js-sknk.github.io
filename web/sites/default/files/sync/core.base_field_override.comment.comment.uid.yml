@@ -1,0 +1,20 @@
+uuid: 08c2ff7a-df05-4d4e-8c5b-549b2544b0aa
+langcode: ko
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.uid
+field_name: uid
+entity_type: comment
+bundle: comment
+label: '사용자 ID'
+description: '댓글 작성자의 사용자 ID입니다.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\comment\Entity\Comment::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

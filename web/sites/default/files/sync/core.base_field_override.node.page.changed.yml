@@ -1,0 +1,18 @@
+uuid: 5f0a2b1c-86bc-4d95-98e2-73bc5a0b9c18
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.changed
+field_name: changed
+entity_type: node
+bundle: page
+label: 변경됨
+description: '노드가 마지막으로 편집된 시간입니다.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

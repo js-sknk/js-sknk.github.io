@@ -1,0 +1,14 @@
+uuid: 44e277b4-2421-43ce-ac82-766cdc94fd20
+name: 'Sknk DP9'
+mail: js@skunkworks.co.kr
+slogan: 'Skunkworks Studio Drupal9'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: ko
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

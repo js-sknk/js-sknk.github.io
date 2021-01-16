@@ -1,0 +1,18 @@
+uuid: 86cb08c4-c8d3-4974-a350-6aac198cab74
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.created
+field_name: created
+entity_type: node
+bundle: page
+label: 시각
+description: '노드가 작성된 시간입니다.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

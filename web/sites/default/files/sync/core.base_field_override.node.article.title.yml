@@ -1,0 +1,18 @@
+uuid: e91bde67-869e-4e42-8cd3-de021b6c2ae9
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.title
+field_name: title
+entity_type: node
+bundle: article
+label: 제목
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

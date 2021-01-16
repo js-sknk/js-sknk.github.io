@@ -1,0 +1,20 @@
+uuid: 29c2736f-1dc2-4509-b1db-fc4d090aad98
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.uid
+field_name: uid
+entity_type: node
+bundle: page
+label: 글쓴이
+description: '콘텐츠 작성자의 사용자 이름입니다.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

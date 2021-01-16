@@ -1,0 +1,20 @@
+uuid: 58f5b0ee-9a0e-49b1-ae39-d5afc0c2fdf8
+langcode: ko
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags
+  module:
+    - path
+id: taxonomy_term.tags.path
+field_name: path
+entity_type: taxonomy_term
+bundle: tags
+label: 'URL 별명'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

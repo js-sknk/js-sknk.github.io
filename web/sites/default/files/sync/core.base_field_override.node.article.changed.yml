@@ -1,0 +1,18 @@
+uuid: 3ac9a53e-3980-42fc-9698-ebc52c987130
+langcode: ko
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.changed
+field_name: changed
+entity_type: node
+bundle: article
+label: 변경됨
+description: '노드가 마지막으로 편집된 시간입니다.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

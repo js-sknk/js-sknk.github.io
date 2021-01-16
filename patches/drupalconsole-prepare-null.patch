@@ -1,0 +1,20 @@
+Index: vendor/drupal/console/src/Utils/DrupalApi.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/vendor/drupal/console/src/Utils/DrupalApi.php b/vendor/drupal/console/src/Utils/DrupalApi.php
+--- a/vendor/drupal/console/src/Utils/DrupalApi.php	(date 1606702193000)
++++ b/vendor/drupal/console/src/Utils/DrupalApi.php	(date 1606702193000)
+@@ -261,10 +261,7 @@
+ 
+         // Invalidate the container.
+         $kernel->invalidateContainer();
+-
+-        // Prepare a NULL request.
+-        $kernel->prepareLegacyRequest($request);
+-
++        
+         foreach (Cache::getBins() as $bin) {
+             $bin->deleteAll();
+         }

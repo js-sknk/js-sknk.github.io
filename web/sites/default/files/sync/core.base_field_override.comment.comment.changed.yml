@@ -1,0 +1,18 @@
+uuid: 560ce5e3-41b4-4710-8bde-21a3578fc0c9
+langcode: ko
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.changed
+field_name: changed
+entity_type: comment
+bundle: comment
+label: 변경됨
+description: '마지막 댓글 편집 시간입니다.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

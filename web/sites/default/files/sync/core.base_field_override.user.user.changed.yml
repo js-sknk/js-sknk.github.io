@@ -1,0 +1,18 @@
+uuid: 6bd24159-e9ac-4af9-84fd-b9bc0e7da9d0
+langcode: ko
+status: true
+dependencies:
+  module:
+    - user
+id: user.user.changed
+field_name: changed
+entity_type: user
+bundle: user
+label: 변경됨
+description: '사용자가 마지막으로 편집된 시간입니다.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

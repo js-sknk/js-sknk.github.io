@@ -1,0 +1,18 @@
+uuid: 2885ef67-eac6-4435-8b2c-af24f7a31442
+langcode: ko
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.menu_link_content.title
+field_name: title
+entity_type: menu_link_content
+bundle: menu_link_content
+label: '메뉴 링크 제목'
+description: '메뉴에서 이 링크의 제목으로 사용할 텍스트입니다.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
