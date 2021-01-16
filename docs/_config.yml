@@ -1,4 +1,4 @@
-remote_theme: pietromenna/jekyll-architect-theme
+remote_theme: "pietromenna/jekyll-architect-theme"
 
 # Site Settings
 locale: "ko-KR"
@@ -8,4 +8,4 @@ baseurl: ""
 title_separator: "-"
 name: "JS"
 description: "A Portfolio website."
-repository: js-sknk/js-sknk.github.io
+repository: "js-sknk/js-sknk.github.io"
