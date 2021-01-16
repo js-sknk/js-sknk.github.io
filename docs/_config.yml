@@ -1,7 +1,6 @@
 theme: jekyll-architect-theme
 
 # Site Settings
-locale: "ko-KR"
 title: Portfolio
 name: "JS"
 description: "A Portfolio website."
